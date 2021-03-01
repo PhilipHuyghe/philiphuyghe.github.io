@@ -3,7 +3,7 @@ let matrix = new Matrix(breedteMatrix, 8);
 let rijAuto = 4 // de x coördinaat van het begin van de auto
 let colWereld = HEIGHT - 2; // de y coördinaat van het begin van de auto
 let anker = 0 // linkerbovenhoek van het kijkvenster
-let score = 0 
+let score = 0
 Wereld = [
     [0, 7],
     [0, 7],
