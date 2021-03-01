@@ -234,7 +234,7 @@ function loopWereld() {
     if (anker >= Wereld.length-9) {
         anker = 0
         telScore()
-        snelheid()
+        
         console.log('anker reset');
     }
 }
@@ -249,7 +249,4 @@ function toonScore(){
     document.getElementById("score").innerHTML= str(score)
 }
 
-function snelheid (){
-   frameRate +=(score*2)
-   console.log(framerate);
-}
+
