@@ -234,7 +234,7 @@ function loopWereld() {
     if (anker >= Wereld.length-9) {
         anker = 0
         telScore()
-
+        snelheid()
         console.log('anker reset');
     }
 }
