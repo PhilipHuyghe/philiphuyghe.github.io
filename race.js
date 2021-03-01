@@ -250,11 +250,6 @@ function toonScore(){
 }
 
 function snelheid (){
-    
-   for (let i = 0; i < 50; i+=2) {
-       frameRate(2+i)
-       
-       
-   }
+   frameRate +=2
    console.log(framerate);
 }
