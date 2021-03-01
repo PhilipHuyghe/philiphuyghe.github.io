@@ -119,7 +119,7 @@ function setup() {
  */
 function draw() {
     matrix.clear();
-    
+    toonScore()
     toonAuto()
     beweegAuto()
     toonWereld()
@@ -239,16 +239,19 @@ function loopWereld() {
     }
 }
 /**
- * elke keer wanneer je een ronde haalt verhoogt de score met 1
+ * 
  */
 function telScore(){
-    score++
-    console.log(score);
+    score+=1
+}
+
+function toonScore(){
+    document.getElementById("score").innerHTML= str(score)
 }
 
 function snelheid (){
     
-   for (let i = 0; i < 50; i++) {
+   for (let i = 0; i < 50; i+=2) {
        frameRate(2+i)
        
        
